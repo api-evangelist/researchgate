@@ -1,8 +1,23 @@
 aid: researchgate
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/researchgate.png
 name: ResearchGate
-description: 'ResearchGate is a company surfaced as a portfolio company of dragoneer and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer-internet. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'ResearchGate is a professional network and social platform for scientists and researchers,
+  founded in 2008 in Berlin, Germany. Members use it to share and discover research publications, connect
+  and collaborate with colleagues, ask and answer questions, and track the reach and citations of their
+  work. The platform hosts tens of millions of researcher profiles and a large corpus of full-text papers,
+  and is operated by ResearchGate GmbH. It exposes no publicly documented developer API surface; this
+  profile was surfaced via the dragoneer portfolio and enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/researchgate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer Internet
+- Research
+- Academic
+- Social Network
+- Publishing
+- Science
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/researchgate-domain-security.yml
 - type: Website
   url: https://www.researchgate.net
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
