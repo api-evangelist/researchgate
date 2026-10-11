@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "researchgate",
+    "captured_at": "2026-10-11T191845",
+    "source_url": "https://researchgate.net",
+    "source_type": "root-domain",
+    "file": "researchgate-2026-10-11T191845.png",
+    "bytes": 50362,
+    "capture": "playwright-local"
+  }
+]
